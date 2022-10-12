@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	float cel,fahr;
+	cout<<" enter the temperature in celsius ";
+	cin>>cel;
+	fahr = (cel*1.8) + 32;
+	cout<<"temperature in fahrenheit: "<<fahr<<endl;
+	return 0;
+}
